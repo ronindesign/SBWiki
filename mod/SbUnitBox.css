@@ -1,0 +1,36 @@
+.sbUB0 
+{
+	clear: right;
+	float: right;
+	margin: 0px 0px 8px 8px;
+}
+
+.sbUB1
+{
+	clear: left;
+	float: left;
+}
+
+.sbUB2 
+{
+	font-size: 90%;
+	background-color: #ffffff;
+	padding: 4px;
+}
+
+.sbUB3 
+{
+	border-spacing: 2px;
+}
+
+.sbUB4 
+{
+	background-color: #ffffff;
+	padding: 4px;
+	text-align: right;
+}
+
+.sbUB5 
+{
+	text-align: center;
+}

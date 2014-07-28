@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pre>
+	<!-- Arbiter -->
+	<record>
+		<id>arb</id>
+
+		<name>Arbiter</name>
+		<link>Arbiter</link>
+
+		<image>shp:big/arb.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="0" regen="0/s">5000</hull>
+		<shield armor="3" regen="60/s">5000</shield>
+
+		<energy regen="1.4/s">250</energy>
+		<speed>1.5</speed>
+		<sight>13</sight>
+		
+		<primary damage="8" speed="0.225" range="6">Phase Disruptors</primary>
+
+		<active>arb_cb,arb_cf,arb_es,arb_ff,arb_fb,arb_rs,arb_ph,arb_sf,wa</active>
+		<passive>arb_kc,arb_ob</passive>
+	</record>
+
+	<!-- Battlecruiser -->
+	<record>
+		<id>bat</id>
+
+		<name>Battlecruiser</name>
+		<link>Battlecruiser</link>
+
+		<image>shp:big/bat.jpg</image>
+
+		<race>Terran</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="4" regen="1/s">8000</hull>
+		<shield armor="2" regen="50/s">5000</shield>
+
+		<energy regen="1/s">200</energy>
+		<speed>1.41</speed>
+		<sight>13</sight>
+		
+		<primary damage="8" speed="0.225" range="6">Laser Battery</primary>
+		<secondary damage="60" speed="4" range="7" amount="6">Longbolt Missiles</secondary>
+
+		<fighter>Tac Fighter</fighter>
+
+		<active>bat_ds,bat_ld,bat_mp,bat_nm,bat_ss,bat_sd,bat_yc,wj,la,rt</active>
+		<passive>bat_cd,bat_fs,bat_bs</passive>
+	</record>
+
+	<!-- Carrier -->
+	<record>
+		<id>car</id>
+
+		<name>Carrier</name>
+		<link>Carrier</link>
+
+		<image>shp:big/car.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="2" regen="0/s">6000</hull>
+		<shield armor="3" regen="60/s">6000</shield>
+
+		<energy regen="1/s">200</energy>
+		<speed>1.3</speed>
+		<sight>11</sight>
+		
+		<primary damage="8" speed="0.18" range="6">Particle Disrupters</primary>
+
+		<fighter>Interceptor</fighter>
+
+		<active>car_te,car_pb,car_ps,car_vx,car_wi,car_sc,car_rs,wa,la,rt</active>
+		<passive>car_gc,car_wt</passive>
+	</record>
+
+	<!-- Colossus -->
+	<record>
+		<id>col</id>
+
+		<name>Colossus</name>
+		<link>Colossus</link>
+
+		<image>shp:big/col.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="4" regen="0/s">7000</hull>
+		<shield armor="7" regen="50/s">7000</shield>
+
+		<energy regen=".6/s">150</energy>
+		<speed>1.3</speed>
+		<sight>11</sight>
+		
+		<primary damage="8" speed="0.24" range="6">Particle Disrupters</primary>
+		<secondary damage="35" speed="2.5" range="8" amount="6">Anti-Matter Missiles</secondary>
+
+		<fighter>Escort</fighter>
+
+		<active>col_gs,col_hs,col_is,col_rs,col_tl,wa,la,rt</active>
+		<passive>col_qr</passive>
+	</record>
+
+	<!-- Dreadnought -->
+	<record>
+		<id>des</id>
+
+		<name>Dreadnought</name>
+		<link>Dreadnought</link>
+
+		<image>shp:big/des.jpg</image>
+
+		<race>Terran</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="8" regen="1/s">9000</hull>
+		<shield armor="2" regen="50/s">5000</shield>
+
+		<energy regen=".6/s">150</energy>
+		<speed>1.3</speed>
+		<sight>11</sight>
+		
+		<primary damage="8" speed="0.24" range="6">Laser Battery</primary>
+		<secondary damage="40" speed=".4" range="8">Gatling Cannon</secondary>
+
+		<fighter>Griffon</fighter>
+
+		<active>dre_bb,dre_ec,dre_co,dre_pf,dre_rb,dre_ra,dre_sm,wj,lf,rf</active>
+		<passive>dre_es,dre_rh</passive>
+	</record>
+
+	<!-- Frigate -->
+	<record>
+		<id>fri</id>
+
+		<name>Frigate</name>
+		<link>Frigate</link>
+
+		<image>shp:big/fri.jpg</image>
+
+		<race>Terran</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="2" regen="1/s">6000</hull>
+		<shield armor="2" regen="50/s">5000</shield>
+
+		<energy regen="1/s">200</energy>
+		<speed>1.41</speed>
+		<sight>13</sight>
+		
+		<primary damage="8" speed="0.18" range="6">Laser Battery</primary>
+		<secondary damage="60" speed="4" range="8" amount="6">Backlash Rockets</secondary>
+
+		<fighter>Wraith</fighter>
+
+		<active>fri_af,fri_ft,fri_ic,fri_kw,fri_mm,fri_qr,fri_rw,wj,lf,rf</active>
+		<passive>fri_js</passive>
+	</record>
+	
+	
+	<!-- Guardian -->
+	<record>
+		<id>gua</id>
+
+		<name>Guardian</name>
+		<link>Guardian</link>
+
+		<image>shp:big/gua.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Biological,Massive</class>
+
+		<hull armor="4" regen="50/s">12000</hull>
+
+		<energy regen="1/s">200</energy>
+		<speed>1.3</speed>
+		<sight>13</sight>
+		
+		<primary damage="8" speed="0.18" range="6">Needle Spines</primary>
+		<secondary damage="150" speed="2" range="7">Acid Spore</secondary>
+		<tertiary damage="20" speed="3" range="13">Broodling Strike</tertiary>
+
+		<active>gua_ao,gua_rb,gua_ca,gua_ds,gua_in,gua_ps,gua_sc,gua_co,gua_sb,wr</active>
+		<passive>gua_pm</passive>
+	</record>
+
+	<!-- Leviathan -->
+	<record>
+		<id>lev</id>
+
+		<name>Leviathan</name>
+		<link>Leviathan</link>
+
+		<image>shp:big/lev.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Biological,Massive</class>
+
+		<hull armor="5" regen="50/s">14000</hull>
+
+		<energy regen=".6/s">150</energy>
+		<speed>1.3</speed>
+		<sight>11</sight>
+
+		<primary damage="8(+2 vs. massive)" speed="0.27" range="5"></primary>
+		<secondary damage="35" speed="1.6" range="7" amount="4">Bile Swarm</secondary>
+
+		<fighter>Locust</fighter>
+		
+		<active>lev_as,lev_bd,lev_co,lev_fz,lev_rr,lev_in,wr,la,rt</active>
+		<passive>lev_ap,lev_me</passive>
+	</record>
+
+	<!-- Overlord -->
+	<record>
+		<id>ove</id>
+
+		<name>Overlord</name>
+		<link>Overlord</link>
+
+		<image>shp:big/ove.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Biological,Massive</class>
+
+		<hull armor="2" regen="50/s">11000</hull>
+
+		<energy regen="1.4/s">250</energy>
+		<speed>1.41</speed>
+		<sight>13</sight>
+		
+		<primary damage="8" speed="0.27" range="5">Energy Blast</primary>
+		<secondary damage="50(+20 vs. biological)" speed="1" range="8">Bio Discharge</secondary>
+
+		<fighter>Mutalisk</fighter>
+		
+		<active>ove_co,ove_pl,ove_pb,ove_ps,ove_se,ove_ss,wr,la,rt</active>
+		<passive>ove_an,ove_pc,ove_sc</passive>
+	</record>
+	
+	<!-- Raven -->
+	<record>
+		<id>rav</id>
+
+		<name>Raven</name>
+		<link>Raven</link>
+
+		<image>shp:big/rav.jpg</image>
+
+		<race>Terran</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="1" regen="1/s">5000</hull>
+		<shield armor="2" regen="50/s">5000</shield>
+
+		<energy regen="1.4/s">250</energy>
+		<speed>1.5</speed>
+		<sight>14</sight>
+		
+		<primary damage="8" speed="0.2" range="6">Burst Laser</primary>
+
+		<active>rav_bo,rav_dm,rav_es,rav_pd,rav_ir,rav_st,rav_sm,rav_ov,wj</active>
+		<passive>rav_ra,rav_dm</passive>
+	</record>
+
+	<!-- Void Ray -->
+	<record>
+		<id>voi</id>
+
+		<name>Void Ray</name>
+		<link>Void Ray</link>
+
+		<image>shp:big/voi.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Massive,Mechanical</class>
+
+		<hull armor="2" regen="0/s">5000</hull>
+		<shield armor="3" regen="60/s">6000</shield>
+
+		<energy regen="1/s">200</energy>
+		<speed>1.55</speed>
+		<sight>12</sight>
+		
+		<primary damage="8(+2 vs light)" speed="0.23" range="5">Phase Disruptors</primary>
+		<secondary damage="50" speed="0.5" range="8">Prismatic Beam</secondary>
+
+		<active>voi_bl,voi_ch,voi_cr,voi_cl,voi_en,voi_pb,voi_pu,wa</active>
+		<passive>voi_fv,voi_ps,voi_hf,voi_wf</passive>
+	</record>
+
+	<!-- Light Fighter -->
+	<record>
+		<id>lig</id>
+
+		<name>Light Fighter</name>
+		<link>Light Fighter</link>
+
+		<image>shp:big/lig.jpg</image>
+
+		<race>Protoss/Terran</race>
+		<class>Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">15</hull>
+
+		<speed>1.8</speed>
+		<sight>8</sight>
+		
+		<primary damage="5" speed="2" range="4">Ion Cannons/Lanzer Torpedoes</primary>
+</record>
+
+	<!-- Heavy Fighter -->
+	<record>
+		<id>hea</id>
+
+		<name>Heavy Fighter</name>
+		<link>Heavy Fighter</link>
+
+		<image>shp:big/hea.jpg</image>
+
+		<race>Protoss/Terran</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="1" regen="0/s">60</hull>
+		<shield armor="1" regen="2.4/s">60</shield>
+
+		<speed>2.5</speed>
+		<sight>9</sight>
+		
+		<primary damage="5" speed="1.7" range="4">Photon Blaster/Gatling Minigun</primary>
+		<secondary damage="40" speed="2" attacks="2" range="6">Anti-Matter Missiles/Gemini Missiles</secondary>
+	</record>
+
+	<!-- Siege Fighter -->
+	<record>
+		<id>sie</id>
+
+		<name>Siege Fighter</name>
+		<link>Siege Fighter</link>
+
+		<image>shp:big/sie.jpg</image>
+
+		<race>Protoss/Terran</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">200</hull>
+		<shield armor="0" regen="3/s">100</shield>
+
+		<speed>1.35</speed>
+		<sight>12</sight>
+		
+		<primary damage="100(+100 vs massive)" speed="3.3" range="15">Kinetic Overload/Railgun</primary>
+	</record>
+
+	<!-- Interceptor -->
+	<record>
+		<id>int</id>
+
+		<name>Interceptor</name>
+		<link>Interceptor</link>
+
+		<image>shp:big/int.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">30</hull>
+		<shield armor="0" regen="2/s">30</shield>
+
+		<speed>2.5</speed>
+		<sight>7</sight>
+		
+		<primary damage="12" speed="2.5" range="2">Pulse Cannon</primary>
+	</record>
+
+	<!-- Escort -->
+	<record>
+		<id>esc</id>
+
+		<name>Escort</name>
+		<link>Escort</link>
+
+		<image>shp:big/esc.jpg</image>
+
+
+		<race>Protoss</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">30</hull>
+		<shield armor="0" regen="2/s">30</shield>
+
+		<speed>2.5</speed>
+		<sight>7</sight>
+		
+		<primary damage="12" speed="2.5" range="2">Neutron Flare</primary>
+	</record>
+
+	<!-- Tac Fighter -->
+	<record>
+		<id>tac</id>
+
+		<name>Tac Fighter</name>
+		<link>Tac Fighter</link>
+
+		<image>shp:big/tac.jpg</image>
+
+		<race>Terran</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">60</hull>0
+
+		<speed>2.5</speed>
+		<sight>7</sight>
+		
+		<primary damage="12" speed="2.5" range="2">Javelin Missiles</primary>
+	</record>
+
+	<!-- Griffon -->
+	<record>
+		<id>gri</id>
+
+		<name>Griffon</name>
+		<link>Griffon</link>
+
+		<image>shp:big/gri.jpg</image>
+
+		<race>Terran</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">60</hull>0
+
+		<speed>2.5</speed>
+		<sight>7</sight>
+		
+		<primary damage="12" speed="2.5" range="2">Claw Missiles</primary>
+	</record>
+
+	<!-- Broodling -->
+	<record>
+		<id>bro</id>
+
+		<name>Broodling</name>
+		<link>Broodling</link>
+
+		<image>shp:big/bro.jpg</image>
+
+		<race>Zerg</race>
+		<class>Light, Biological</class>
+
+		<hull armor="0" regen="0/s">64</hull>
+
+		<speed>3.8</speed>
+		<sight>5</sight>
+		
+		<primary damage="7" speed=".7" range="0">Needle Claws</primary>
+	</record>
+
+	<!-- Locust -->
+	<record>
+		<id>loc</id>
+
+		<name>Locust</name>
+		<link>Locust</link>
+
+		<image>shp:big/loc.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Light,Biological</class>
+
+		<hull armor="0" regen="2/s">60</hull>
+
+		<speed>2.5</speed>
+		<sight>7</sight>
+		
+		<primary damage="12" speed="2.5" range="2">Spines</primary>
+	</record>
+
+	<!-- Mutalisk -->
+	<record>
+		<id>mut</id>
+
+		<name>Mutalisk</name>
+		<link>Mutalisk</link>
+
+		<image>shp:big/mut.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Light,Biological</class>
+
+		<hull armor="0" regen="2/s">60</hull>
+
+		<speed>2.5</speed>
+		<sight>7</sight>
+		
+		<primary damage="12" speed="2.5" range="2">Glaive Wurm</primary>
+	</record>
+
+	<!-- Corruptor -->
+	<record>
+		<id>cor</id>
+
+		<name>Void Ray</name>
+		<link>Void Ray</link>
+
+		<image>shp:big/voi.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Light,Biological</class>
+
+		<hull armor="0" regen="6.7/s">200</hull>
+
+		<speed>1.5</speed>
+		<sight>10</sight>
+		
+		<primary damage="12(+38 vs massive)" speed="1.9" range="6">Parasite Spore</primary>
+	</record>
+
+	<!-- Brood Lord -->
+	<record>
+		<id>blo</id>
+
+		<name>Brood Lord</name>
+		<link>Brood Lord</link>
+
+		<image>shp:big/blo.jpg</image>
+
+		<race>Zerg</race>
+		<class>Armored,Light,Biological</class>
+
+		<hull armor="0" regen="3/s">300</hull>
+
+		<speed>1.5</speed>
+		<sight>10</sight>
+		
+		<primary damage="20" speed="2.5" range="13">Broodling Strike</primary>
+		<passive>gua_pm</passive>
+	</record>
+
+	<!-- Spotter -->
+	<record>
+		<id>spo</id>
+
+		<name>Spotter</name>
+		<link>Spotter</link>
+
+		<image>shp:big/spo.jpg</image>
+
+		<race>Zerg</race>
+		<class>Light,Biological</class>
+
+		<hull armor="2" regen="3/s">300</hull>
+
+		<speed>3</speed>
+		<sight>10</sight>
+		
+	</record>
+
+	<!-- Point Defense Drone -->
+	<record>
+		<id>pdd</id>
+
+		<name>Point Defense Drone</name>
+		<link>Point Defense Drone</link>
+
+		<image>shp:big/pdd.jpg</image>
+
+		<race>Terran</race>
+		<class>Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">50</hull>
+
+		<energy regen="1/s">200</energy>
+		<sight>7</sight>
+		
+		<primary speed="0" range="8">Point Defense Laser</primary>
+	</record>
+
+	<!-- Magnetic Mine -->
+	<record>
+		<id>mmi</id>
+
+		<name>Magnetic Mine</name>
+		<link>Magnetic Mine</link>
+
+		<image>shp:big/mmi.jpg</image>
+
+		<race>Terran</race>
+		<class>Light,Mechanical,Structure</class>
+
+		<hull armor="0" regen="0/s">25</hull>
+
+		<sight>3</sight>
+		
+		<primary damage="50(+300 vs. massive)" range="1.75">Detonate</primary>
+	</record>
+
+	<!-- Tower -->
+	<record>
+		<id>tow</id>
+
+		<name>Tower</name>
+		<link>Tower</link>
+
+		<image>shp:big/tow.jpg</image>
+
+		<race>Protoss/Terran</race>
+		<class>Armored,Mechanical,Structure</class>
+
+		<hull armor="7" regen="5/s">10000</hull>
+		<shield armor="5" regen="60/s">10000</shield>
+
+		<sight>11</sight>
+		
+		<primary damage="100(+100 vs massive)" speed="1" range="10">Photon Cannon/Havoc Missiles</primary>
+	</record>
+
+	<!-- Base -->
+	<record>
+		<id>bas</id>
+
+		<name>Base</name>
+		<link>Base</link>
+
+		<image>shp:big/bas.jpg</image>
+
+		<race>Protoss/Terran</race>
+		<class>Armored,Mechanical,Structure</class>
+
+		<hull armor="10" regen="1/s">25000</hull>
+		<shield armor="8" regen="60/s">25000</shield>
+
+		<sight>14</sight>
+		
+		<primary damage="100" speed="0.1" range="20">Purifier Beam/Laser Beam</primary>
+	</record>
+
+	<!-- Scout -->
+	<record>
+		<id>sco</id>
+
+		<name>Scout</name>
+		<link>Scout</link>
+
+		<image>shp:big/sco.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="2" regen="0/s">100</hull>
+		<shield armor="2" regen="0/s">100</shield>
+
+		<speed>3</speed>
+		<sight>9</sight>
+		
+		<primary damage="40" speed="2" range="6">Anti-Matter Missiles</primary>
+	</record>
+
+	<!-- Tempest -->
+	<record>
+		<id>tem</id>
+
+		<name>Tempest</name>
+		<link>Tempest</link>
+
+		<image>shp:big/tem.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">200</hull>
+		<shield armor="0" regen="1/s">100</shield>
+
+		<speed>1.35</speed>
+		<sight>12</sight>
+		
+		<primary damage="60(+80 vs massive)" speed="3.3" range="14">Kinetic Overload</primary>
+	</record>
+
+	<!-- Observer -->
+	<record>
+		<id>obs</id>
+
+		<name>Observer</name>
+		<link>Observer</link>
+
+		<image>shp:big/obs.jpg</image>
+
+		<race>Protoss</race>
+		<class>Armored,Light,Mechanical</class>
+
+		<hull armor="0" regen="0/s">50</hull>
+		<shield armor="0" regen="3.5/s">50</shield>
+
+		<energy regen="1.67/s">150</energy>
+		<speed>2</speed>
+		<sight>11</sight>
+
+		<active>obs_de</active>
+		<passive>obs_cl</passive>
+	</record>
+
+	<!-- Scourge -->
+	<record>
+		<id>scu</id>
+
+		<name>Scourge</name>
+		<link>Scourge</link>
+
+		<image>shp:big/scu.jpg</image>
+
+		<race>Zerg</race>
+		<class>Light,Biological</class>
+
+		<hull armor="0" regen="0/s">125</hull>
+
+		<speed>3</speed>
+		<sight>5</sight>
+		
+		<primary damage="30(+220 vs massive)" range="0.25">Suicide</primary>
+	</record>
+
+	<!-- Asteroid -->
+	<record>
+		<id>ast</id>
+
+		<name>Asteroid</name>
+		<link>Asteroid</link>
+
+		<image>shp:big/ast.jpg</image>
+
+		<race>Rock</race>
+		<class>Rock</class>
+
+		<hull armor="Rock">More than you can kill.</hull>
+
+		<energy>Rock</energy>
+		<speed>Rock</speed>
+		<sight>Rock</sight>
+
+		<primary>Rock</primary>
+	</record>
+</pre>

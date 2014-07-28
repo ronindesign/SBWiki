@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pre>
+	<record>
+		<id>MACE</id>
+
+		<name>M♣CE</name>
+		<link>MACE</link>
+		<icon>mace</icon>
+	</record>
+
+	<record>
+		<id>FF</id>
+
+		<name>Fubumaki's Fear</name>
+		<link>Fubumakis Fear</link>
+		<icon>ff</icon>
+	</record>
+
+	<record>
+		<id>Red Alert</id>
+
+		<name>Red Alert</name>
+		<link>Red Alert</link>
+		<icon>red_alert</icon>
+	</record>
+
+	<record>
+		<id>TOPS</id>
+
+		<name>TOPS</name>
+		<link>TOPS</link>
+	</record>
+
+</pre>

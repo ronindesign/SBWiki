@@ -1,0 +1,62 @@
+.sb0 
+{
+	color: red;
+	font-weight: bold;
+}
+
+.sb1 
+{
+	height:  14px;
+	position: relative;
+	top: -2px;
+	width: 14px;
+}
+
+.sbCbBox 
+{
+	background-color: #cedff2;
+	border: 1px solid #a3b0bf;	
+}
+
+.sbCbFrm 
+{
+	background-color: #f5faff;
+	border: 1px solid #cedff2;	
+}
+
+.sbCgBox 
+{
+	background-color: #cef2e0;
+	border: 1px solid #a3bfb1;	
+}
+
+.sbCgFrm 
+{
+	background-color: #f5fffa;
+	border: 1px solid #cef2e0;	
+}
+
+.sbCrBox 
+{
+	background-color: #ddcef2;
+	border: 1px solid #afa3bf;	
+}
+
+.sbCrFrm 
+{
+	background-color: #faf5ff;
+	border: 1px solid #ddcef2;	
+}
+
+.sbCxBox 
+{
+	background-color: #efefef;
+	border: 1px solid #a3b0bf;	
+}
+
+.sbCxFrm 
+{
+	background-color: #fdfdfd;
+	border: 1px solid #ddd;	
+}
+

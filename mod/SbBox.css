@@ -1,0 +1,36 @@
+.sbBox0 
+{
+	border-spacing: 0px;
+	margin: 4px 0px 0px 0px; 
+	width: 100%; 
+}
+
+.sbBox1 
+{
+	padding: 4px;	
+}
+
+.sbBox2 
+{
+	vertical-align: top; 
+	padding: 4px;
+}
+
+.sbBox3 
+{
+	background: none; 
+	border-spacing: 0px;
+	width: 100%;
+}
+
+.sbBox4 
+{
+	font-weight: bold;
+	padding: 0px 4px 0px 4px;	
+}
+
+.sbBox5 
+{
+	border-spacing: 0px;
+	margin: 4px 4px 0px 0px; 
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pre>
+	<record>
+		<id>Iaijutsu</id>
+
+		<icon>iaijutsu</icon>
+	</record>
+
+	<record>
+		<id>MaxiTB</id>
+
+		<icon>maxi_tb</icon>
+	</record>
+
+	<record>
+		<id>OldEnt</id>
+
+		<icon>old_ent</icon>
+	</record>
+
+	<record>
+		<id>Arc1618</id>
+
+		<icon>arc1618</icon>
+	</record>
+
+</pre>

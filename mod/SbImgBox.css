@@ -1,0 +1,34 @@
+.sbImgBox0 
+{
+	clear: right;
+	float: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 4px;
+}
+
+.sbImgBox1 
+{
+	clear: right;
+	float: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 4px;	
+}
+
+.sbImgBox2 
+{
+	padding: 3px;
+}
+
+.sbImgBox3 
+{
+	font-size: 94%;
+	line-height: 1.4em;
+	padding: 3px; 
+}
+
+.sbImgBox4 
+{
+	float: right;	
+}

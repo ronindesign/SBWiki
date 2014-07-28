@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pre>
+	<record>
+		<id>eu1</id>
+
+		<name>EU Tournament 1</name>
+		<code>EU1</code>
+		<link>EU1</link>
+		<icon>eu</icon>
+
+		<date from="2011-05-07"/>
+		<type>official</type>
+
+		<summary teams="6" players="41">First successfully concluded Star Battle Tournament. 6 teams and 41 players participated.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=16&amp;t=2058 Forum thread]</ref>
+
+		<host>Frosty</host>
+		<winner>FF</winner>
+	</record>
+
+	<record>
+		<id>eu2</id>
+
+		<name>EU Tournament 2</name>
+		<code>EU2</code>
+		<link>EU2</link>
+		<icon>eu</icon>
+
+		<date from="2011-06-04" to="2011-06-05"/>
+		<type>official</type>
+
+		<summary teams="12" players="94">12 teams and 94 players participated.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=16&amp;t=2103 Forum thread]</ref>
+
+		<host>Frosty</host>
+		<winner>FF</winner>
+	</record>
+
+	<record>
+		<id>na2</id>
+
+		<name>NA Tournament 2</name>
+		<code>NA2</code>
+		<link>NA2</link>
+		<icon>na</icon>
+
+		<date from="2011-06-18" to="2011-06-19"/>
+		<type>official</type>
+
+		<summary teams="10">10 teams participated.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=17&amp;t=2126 Forum Thread]</ref>
+
+		<host>PandaBearGuy</host>
+		<winner>Legacy</winner>
+	</record>
+
+	<record>
+		<id>na3</id>
+
+		<name>NA Tournament 3</name>
+		<code>NA3</code>
+		<link>NA3</link>
+		<icon>na</icon>
+
+		<date from="2011-07-30" to="2011-07-31"/>
+		<type>official</type>
+
+		<summary teams="16">16 teams participated.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=17&amp;t=2764 Forum Thread]</ref>
+
+		<host>PandaBearGuy</host>
+		<winner>EU Ware Peagons</winner>
+	</record>
+
+	<record>
+		<id>eu3</id>
+
+		<name>EU Summer Tournament 2011</name>
+		<code>EU3</code>
+		<link>EU3</link>
+		<icon>eu3</icon>
+
+		<date from="2011-08-20" to="2011-08-21"/>
+		<type>official</type>
+
+		<summary teams="14" players="123">Star Battle EU Summer Tournament 2011, 14 teams and 123 players participated.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewtopic.php?f=16&amp;t=3059 Forum Thread]</ref>
+
+		<host>OldEnt</host>
+		<winner>Infamous Legacy</winner>
+	</record>
+
+	<record>
+		<id>eu4</id>
+
+		<name>EU Tournament 4</name>
+		<code>EU4</code>
+		<link>EU4</link>
+		<icon>eu</icon>
+
+		<date from="2011-09-15" to="2011-09-16"/>
+		<type>official</type>
+
+		<summary teams="16">16 teams participated.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=16&amp;t=2817 Forum Thread]</ref>
+
+		<host>Frosty</host>
+		<winner>FF</winner>
+	</record>
+
+	<record>
+		<id>na4</id>
+
+		<name>NA Tournament 4</name>
+		<code>NA4</code>
+		<link>NA4</link>
+		<icon>na</icon>
+
+		<date from="2011-11-05" to="2011-11-06"/>
+		<type>official</type>
+
+		<summary teams="14">14 teams participated.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=17&amp;t=3552 Forum Thread]</ref>
+
+		<host>jzerg</host>
+		<winner>TOPS</winner>
+	</record>
+
+	<record>
+		<id>eu3g</id>
+
+		<name>EU Tournament 3G</name>
+		<code>3G</code>
+		<link>3G</link>
+		<icon>eu</icon>
+
+		<date from="2011-12-17" to="2011-12-18"/>
+		<type>official</type>
+
+		<summary>Stands for "3 Games".</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=33&amp;t=4135 Forum Thread] <br/> [http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=33&amp;t=4133 General Discussion]</ref>
+
+		<host>MondSpieler</host>		
+	</record>
+
+	<record>
+		<id>na5</id>
+
+		<name>NA Tournament 5</name>
+		<code>NA5</code>
+		<link>NA5</link>
+		<icon>na</icon>
+
+		<date from="2012-01-21" to="2012-01-22"/>
+		<type>official</type>
+
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=34&amp;t=4056 Forum Thread] <br/> [http://playstarbattle.com/forum/phpBB3/viewtopic.php?f=34&amp;t=4088 General Discussion]</ref>
+
+		<host>WildFire</host>
+		<winner>JustForLulz</winner>
+	</record>
+
+	<record>
+		<id>wt1</id>
+
+		<name>World Tournament 1</name>
+		<code>WSBT1</code>
+		<link>WSBT1</link>
+		<icon>wt1</icon>
+
+		<date from="2012-03-03" to="2012-03-04"/>
+		<type>official</type>
+
+		<summary teams="40" players="400">40 teams and over 400 players registered from all over the world.</summary>
+		<ref>[http://playstarbattle.com/forum/phpBB3/viewforum.php?f=37 Forum Thread]</ref>
+
+		<host>OldEnt,jzerg</host>
+		<winner>Red Alert</winner>
+	</record>
+
+	<record>
+		<id>eu5</id>
+
+		<name>EU Tournament 5</name>
+		<code>EU5</code>
+		<link>EU5</link>
+		<icon>eu5</icon>
+
+		<date from="2012-04-28" to="2012-04-29"/>
+		<type>official</type>
+
+		<summary teams="27" players="257">257 players in 27 teams were registered.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=41 Forum Thread]</ref>
+
+		<host>KrakenDomes,saluki,Frosty</host>
+		<winner>MACE</winner>
+	</record>
+
+	<record>
+		<id>na6</id>
+
+		<name>Tournament NA 6</name>
+		<code>NA6</code>
+		<link>NA6</link>
+		<icon>na6</icon>
+
+		<date from="2012-05-09" to="2012-05-10"/>
+		<type>official</type>
+
+		<summary teams="22">22 teams registered.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=42 Forum Thread] <br/> [http://www.playstarbattle.com/forum/phpBB3/viewtopic.php?f=42&amp;t=5026 General Discussion]</ref>
+
+		<host>akaFuel,heylo,Speedbump</host>
+		<winner>RedLions</winner>
+	</record>
+
+	<record>
+		<id>nasb</id>
+
+		<name>NA Tournament StarBlitz</name>
+		<code>StarBlitz</code>
+		<link>StarBlitz</link>
+		<icon>nasb</icon>
+
+		<date from="2012-05-19"/>
+
+		<summary> A "for fun" NA tournament.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=43 Forum Thread]</ref>
+
+		<host>WildFire</host>
+	</record>
+	
+	<record>
+		<id>na7</id>
+
+		<name>NA Tournament 7</name>
+		<code>NA7</code>
+		<link>NA7</link>
+		<icon>na7</icon>
+
+		<date from="2012-08-25" to="2012-08-26"/>
+		<type>official</type>
+
+		<summary teams="20">20 teams registered.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=46 Forum Thread] <br/> [http://www.playstarbattle.com/forum/phpBB3/viewtopic.php?f=46&amp;t=5505 General Discussion]</ref>
+
+		<host>WarAlaster,Computer,akaFuel,ladainian</host>
+		<winner>RedLions</winner>
+	</record>
+
+	<record>
+		<id>eu6</id>
+
+		<name>EU Tournament 6</name>
+		<code>EU6</code>
+		<link>EU6</link>
+		<icon>eu</icon>
+
+		<date from="2012-09-15" to="2012-09-16"/>
+		<type>official</type>
+
+		<summary>A Freelancer tournament.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=47 Forum Thread]</ref>
+
+		<host>Kerberus,Terminus,Libeer,OmegaStar</host>
+	</record>
+
+	<record>
+		<id>na4g</id>
+
+		<name>NA Tournament Four Glory</name>
+		<code>4G</code>
+		<link>4G</link>
+		<icon>na4g</icon>
+
+		<date from="2012-10-20" to="2012-10-21"/>
+		<type>official</type>
+
+		<summary>First ever 4v4 tournament.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=50 Forum Thread]</ref>
+
+		<host>Wildfire,Howler,Coolbreeze</host>
+	</record>
+
+	<record>
+		<id>na8</id>
+
+		<name>NA Tournament 8</name>
+		<code>NA8</code>
+		<link>NA8</link>
+		<icon>na</icon>
+
+		<date from="2012-11-17" to="2012-11-18"/>
+		<type>official</type>
+
+		<summary>NA8: The Infinite Challenge.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=49 Forum Thread]</ref>
+
+		<host>akaFuel,ladainian,OmegaStar</host>
+		<winner>SkyNet</winner>
+	</record>
+
+	<record>
+		<id>cn1</id>
+
+		<name>CN Tournament 1</name>
+		<code>CN1</code>
+		<link>CN1</link>
+		<icon>cn1</icon>
+
+		<date from="2012-11-24" to="2012-11-25"/>
+		<type>official</type>
+
+		<summary teams="16">16 teams, 4v4 classic format.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewtopic.php?f=33&amp;t=6088 playstarbattle] <br/> [http://tieba.baidu.com/p/1952757295 Baidu]</ref>
+
+		<host>lcmyth,书神天下一桶浆糊</host>
+		<winner>Made In Taiwan</winner>
+	</record>
+
+	<record>
+		<id>euc</id>
+
+		<name>EU Chrismas Tournament</name>
+		<code>EUC</code>
+		<link>EUC</link>
+		<icon>eu</icon>
+
+		<date from="2012-12-29"/>
+
+		<summary teams="7">A "for fun" 4v4 Vespene tournament, 7 teams registered (unlimited roster size).</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=51 sub forum]</ref>
+
+		<host>BokoKnight</host>
+	</record>
+
+	<record>
+		<id>na9</id>
+
+		<name>NA Tournament 9</name>
+		<code>NA9</code>
+		<link>NA9</link>
+		<icon>na</icon>
+
+		<date from="2013-01-26" to="2013-01-27"/>
+		<type>official</type>
+
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=52 Subforum]</ref>
+
+		<host>Immaninja,Iaijutsu,OmegaStar</host>
+		<winner>Cyberdyne Systems</winner>
+	</record>
+
+	<record>
+		<id>cn2</id>
+
+		<name>CN Tournament 2</name>
+		<code>CN2</code>
+		<link>CN2</link>
+		<icon>cn</icon>
+
+		<date from="2013-03-09" to="2013-03-10"/>
+		<type>official</type>
+
+		<summary teams="12">12 teams.</summary>
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewtopic.php?f=33&amp;t=6683 playstarbattle] <br/> [http://tieba.baidu.com/p/2172251073 Baidu]</ref>
+
+		<host>RainForest</host>
+		<winner>Eclipsis in Taiwan</winner>
+	</record>
+
+	<record>
+		<id>wt2</id>
+
+		<name>World SOH Tournament 2</name>
+		<code>WSBT2</code>
+		<link>WSBT2</link>
+		<icon>soh</icon>
+
+		<date from="2013-04-13" to="2013-04-14"/>
+		<type>official</type>
+
+		<ref>[http://www.playstarbattle.com/forum/phpBB3/viewforum.php?f=54 Forum thread]</ref>
+
+		<host>WildFire,Dusk,Kerberus,KrakenDomes,SonGoku</host>
+		<winner>Cyberdyne Systems</winner>
+	</record>
+</pre>

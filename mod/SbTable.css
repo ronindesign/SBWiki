@@ -1,0 +1,33 @@
+.sbTbl0 
+{
+	border-spacing: 2px;
+}
+
+.sbTbl1 
+{
+	background-color: #ffffff;
+	font-size: 90%;
+	padding: 4px;
+}
+
+.sbTbl2 
+{
+	font-weight: bold;
+	padding: 4px;
+}
+
+.sbTbl3 
+{
+	background-color: #ffffff;
+	font-size: 90%;
+	padding: 4px;
+	text-align: center;	
+}
+
+.sbTbl4 
+{
+	background-color: #ffffff;
+	font-size: 90%;
+	padding: 4px;
+	text-align: right;	
+}

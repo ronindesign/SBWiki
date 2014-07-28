@@ -1,0 +1,1890 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pre>
+	<record>
+		<id>lf</id>
+
+		<name>Launch Fighters</name>
+		<link>On-board Fighters</link>
+		
+		<type>Active</type>
+		<hotkey>R</hotkey>
+
+		<range>16(+1)</range>
+
+		<description>Launches Fighters toward target location. Fighters are excellent at engaging enemy fighters and long-range targets.</description>
+	</record>
+
+	<record>
+		<id>rf</id>
+
+		<name>Retarget Fighters</name>
+		<link>Retarget Fighters</link>
+		
+		<type>Active</type>
+		<hotkey>T</hotkey>
+
+		<range>16(+1)</range>
+
+		<description>Orders all deployed Fighters to move to the target point, fighting nearby enemies along the way. Targeting a unit orders deployed Fighters to attack it until it is destroyed. Targeting the launching ship recalls all deployed Fighters.</description>
+	</record>
+
+	<record>
+		<id>wr</id>
+
+		<name>Warp Rift</name>
+		<link>Warp Rift</link>
+		
+		<type>Active</type>
+		<hotkey>w</hotkey>
+
+		<cost>100</cost>
+		<energy>100</energy>
+		
+		<time cooldown="90" cast="8"/>
+
+		<description>Allows Zerg ships to warp to any friendly massive unit on the map.</description>
+	</record>
+
+	<record>
+		<id>wj</id>
+
+		<name>Warp Jump</name>
+		<link>Warp Jump</link>
+		
+		<type>Active</type>
+		<hotkey>w</hotkey>
+
+		<cost>75</cost>
+		<energy>75</energy>
+		
+		<time cooldown="60" cast="10"/>
+
+		<description>Allows Terran ships to warp to any friendly massive unit on the map.</description>
+	</record>
+
+	<record>
+		<id>wa</id>
+
+		<name>Warp</name>
+		<link>Warp</link>
+		
+		<type>Active</type>
+		<hotkey>w</hotkey>
+
+		<cost>50</cost>
+		<energy>50</energy>
+		
+		<time cooldown="45" cast="10"/>
+
+		<description>Allows Protoss ships to warp to any friendly massive unit on the map.</description>
+	</record>
+
+	<!-- Arbiter -->
+
+	<record>
+		<id>arb_cb</id>
+
+		<name>Chrono Boost</name>
+		<link>Chrono Boost</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>b</hotkey>
+
+		<cost>150</cost>
+		<energy>100</energy>
+		<range>8</range>
+		
+		<time cooldown="30" effect="15"/>
+
+		<description>Places target allied unit in a Chrono Boost, causing it to attack, use special abilities and operate 50% faster. Additionally its speed will be increased by 0.1.</description>
+	</record>
+
+	<record>
+		<id>arb_cf</id>
+
+		<name>Cloaking Field</name>
+		<link>Cloaking Field</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>c</hotkey>
+
+		<cost>250</cost>
+		<energy>50(4/s)</energy>
+		<range>4</range>
+		
+		<description>Cloaks friendly nearby units. While active, the Arbiter cannot be cloaked by an another Arbiter. Drains 4 energy per second.</description>
+	</record>
+
+	<record>
+		<id>arb_es</id>
+
+		<name>Electromagnetic Storm</name>
+		<link>Electromagnetic Storm</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>g</hotkey>
+
+		<cost>50</cost>
+		<energy>175</energy>
+		<range>9</range>
+		
+		<time cooldown="10" effect="4"/>
+
+		<description>Creates an electromagnetic storm that lasts 4 seconds, causing up to 125 (+1475 vs. massive) damage to all units in the target area.</description>
+	</record>
+
+	<record>
+		<id>arb_fb</id>
+
+		<name>Feedback</name>
+		<link>Feedback</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>e</hotkey>
+
+		<cost>225</cost>
+		<energy>125</energy>
+		<range>10</range>
+		
+		<time cooldown="10" />
+
+		<description>Drains up to 300 energy from the target. Deals 5 damage per point of energy.</description>
+	</record>
+
+	<record>
+		<id>arb_ff</id>
+
+		<name>Force Field</name>
+		<link>Force Field</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>f</hotkey>
+
+		<cost>175</cost>
+		<energy>50</energy>
+		<range>9</range>
+		
+		<time effect="15"/>
+
+		<description>Creates a barrier that stops enemy missiles.</description>
+	</record>
+
+	<record>
+		<id>arb_kc</id>
+
+		<name>Khydarian Core</name>
+		<link>Khydarian Core</link>
+	
+		<ship>arb</ship>
+		<type>Passive</type>
+		<hotkey>k</hotkey>
+
+		<cost>200</cost>
+		
+		<description>Increases the energy regeneration rate by 100% when the Arbiter is out of combat.</description>
+	</record>
+
+	<record>
+		<id>arb_ob</id>
+
+		<name>Observer</name>
+		<link>Observer</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>o</hotkey>
+
+		<cost>100</cost>
+		<energy>10</energy>
+		
+		<time cooldown="30" cast="0" effect="15"/>
+
+		<description>Flying spy. Cloak renders the unit invisible to enemies without detection.</description>
+	</record>
+
+	<record>
+		<id>arb_ph</id>
+
+		<name>Phantom</name>
+		<link>Phantom</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>n</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		<range>7</range>
+		
+		<time cooldown="45" cast="0" effect="60"/>
+
+		<description>Creates a phantom of a target allied massive unit. Phantoms are illusory units that cannot use active abilities or deal damage and can be destroyed easier. Enemy detectors reveal phantoms.</description>
+	</record>
+
+	<record>
+		<id>arb_rs</id>
+
+		<name>Recharge Shields</name>
+		<link>Recharge Shields</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>r</hotkey>
+
+		<range>7</range>
+		
+		<description>Recharges shields of an allied capital ship, restoring 60 shield points per second. Drains 6 energy per second. Does not stop energy regeneration.</description>
+	</record>
+
+	<record>
+		<id>arb_sf</id>
+
+		<name>Stasis Field</name>
+		<link>Stasis Field</link>
+	
+		<ship>arb</ship>
+		<type>Active</type>
+		<hotkey>i</hotkey>
+
+		<cost>400</cost>
+		<energy>150</energy>
+		<range>9</range>
+		
+		<time cooldown="180" cast="0" effect="20"/>
+
+		<description>Traps the target unit in a Stasis Field, preventing it from moving, attacking, or using special abilities. A trapped unit may not be attacked or affected by special abilities. Can also be used on badly damaged allied units. Lasts 20 seconds, until interrupted or canceled. Arbiter must remain within range to maintain the Stasis Field.</description>
+	</record>
+
+	<!-- Battle Cruiser -->
+
+	<record>
+		<id>bat_bs</id>
+
+		<name>Regenerative Bio-Steel</name>
+		<link>Regenerative Bio-Steel</link>
+
+		<ship>bat</ship>
+		<type>Passive</type>
+		<hotkey>B</hotkey>
+
+		<cost>125</cost>
+
+		<description>Greatly increases the hull regeneration rate and reduces the hull regeneration delay to 5. Also allows hull regeneration while in combat unless direct hull damage is taken.</description>
+	</record>
+
+	<record>
+		<id>bat_ds</id>
+
+		<name>Defensive Shield</name>
+		<link>Defensive Shield</link>
+
+		<ship>bat</ship>
+		<type>Active</type>
+		<hotkey>V</hotkey>
+
+		<cost>150</cost>
+		<energy>100</energy>
+		
+		<time cooldown="20" effect="20"/>
+
+		<description>Surrounds the Battle Cruiser with a shield that can absorb 2000 damage.</description>
+	</record>
+	
+	<record>
+		<id>bat_fs</id>
+
+		<name>Fire-Suppression System</name>
+		<link>Fire-Suppression System</link>
+
+		<ship>bat</ship>
+		<type>Passive</type>
+		<hotkey>S</hotkey>
+
+		<cost>50</cost>
+
+		<description>Prevents the ship from being affected by the Heavily Damaged effect.</description>
+	</record>
+	
+	<record>
+		<id>bat_ld</id>
+
+		<name>Lockdown</name>
+		<link>Lockdown</link>
+
+		<ship>bat</ship>
+		<type>active</type>
+		<hotkey>D</hotkey>
+
+		<cost>250</cost>
+		<energy>125</energy>
+		<range>10</range>
+		
+		<time cooldown="10" effect="10"/>
+
+		<description>Deactivates the electronics of a target mechanical unit, preventing it from using abilities. Also drains 10 energy every second. Lasts 10 seconds.</description>
+	</record>
+	
+	<record>
+		<id>bat_mp</id>
+
+		<name>Missile Pods</name>
+		<link>Missile Pods</link>
+
+		<ship>bat</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>125</cost>
+		<energy>100</energy>
+		
+		<time cooldown="3" cast="4"/>
+
+		<description>Missile Pods do 100 damage (+500 vs. armored) to all units in target area.</description>
+	</record>
+
+	<record>
+		<id>bat_nm</id>
+
+		<name>Nuclear Missile</name>
+		<link>Nuclear Missile</link>
+
+		<ship>bat</ship>
+		<type>Active</type>
+		<hotkey>N</hotkey>
+
+		<cost>400</cost>
+		<energy>200</energy>
+		
+		<time cooldown="180" cast="2" effect="15"/>
+
+		<description>Launches a Nuclear Missile that will chase its target. If the missile hits the target, it will deal up to 6000 area damage. Has enough fuel for 15 seconds. The damage of Nuclear Missile cannot be blocked or reduced by defensive abilities.</description>
+	</record>
+
+	<record>
+		<id>bat_sd</id>
+
+		<name>Self-Destruct</name>
+		<link>Self-Destruct</link>
+
+		<ship>bat</ship>
+		<type>Active</type>
+		<hotkey>N</hotkey>
+
+		<description>Destroys the Infested Battlecruiser, dealing up to 6,000 damage to all units in a large radius.</description>
+	</record>
+
+	<record>
+		<id>bat_ss</id>
+
+		<name>Scanner Sweep</name>
+		<link>Scanner Sweep</link>
+
+		<ship>bat</ship>
+		<type>active</type>
+		<hotkey>C</hotkey>
+
+		<cost>150</cost>
+		<energy>75</energy>
+		
+		<time cooldown="60" effect="12"/>
+
+		<description>Reveals positions of all enemy ships on the map and detects cloaked units in a close radius. Lasts 12 seconds.</description>
+	</record>
+
+	<record>
+		<id>bat_yc</id>
+
+		<name>Yamato Cannon</name>
+		<link>Yamato Cannon</link>
+
+		<ship>bat</ship>
+		<type>active</type>
+		<hotkey>Y</hotkey>
+
+		<cost>175</cost>
+		<energy>125</energy>
+		
+		<time cooldown="10" cast="3"/>
+
+		<description>Blasts a target with a devastating plasma cannon, causing 2000 damage.</description>
+	</record>
+
+	<!-- Carrier -->
+
+	<record>
+		<id>car_gc</id>
+
+		<name>Graviton Catapult</name>
+		<link>Graviton Catapult</link>
+	
+		<ship>car</ship>
+		<type>Passive</type>
+		<hotkey>R</hotkey>
+
+		<cost>100</cost>
+
+		<description>Makes the Carrier launch Interceptors more quickly.</description>
+	</record>
+
+	<record>
+		<id>car_pb</id>
+
+		<name>Plasma Barrage</name>
+		<link>Plasma Barrage</link>
+	
+		<ship>car</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>175</cost>
+		<energy>125</energy>
+		<range>11</range>
+		
+		<time cooldown="15" cast="3"/>
+
+		<description>Launches plasma missiles at the enemy, dealing up to 2500 damage over 3 seconds.</description>
+	</record>
+
+	<record>
+		<id>car_ps</id>
+
+		<name>Plasma Surge</name>
+		<link>Plasma Surge</link>
+	
+		<ship>car</ship>
+		<type>Active</type>
+		<hotkey>G</hotkey>
+
+		<cost>125</cost>
+		<energy>50</energy>
+		<range>15</range>
+		
+		<time cooldown="10" cast="0" effect="20"/>
+
+		<description>Recharges up to 125 shield points to each friendly light unit in the target area. Affected units have their maximum shield amount increased by 25% and their shield armor increased by 5 for 20 seconds.</description>
+	</record>
+
+	<record>
+		<id>car_vo</id>
+
+		<name>Vortex</name>
+		<link>Vortex</link>
+	
+		<ship>car</ship>
+		<type>Active</type>
+		<hotkey>V</hotkey>
+
+		<cost>400</cost>
+		<energy>200</energy>
+		<range>10</range>
+		
+		<time cooldown="180" cast="2" effect="20"/>
+
+		<description>Creates a gravity Vortex that stuns all units in the target area. Units within the Vortex are invulnerable to all damage and effects. Lasts for 20 seconds.</description>
+	</record>
+
+	<record>
+		<id>car_wi</id>
+
+		<name>Warp In</name>
+		<link>Warp In</link>
+	
+		<ship>car</ship>
+		<type>Active</type>
+		<hotkey>N</hotkey>
+
+		<cost>150</cost>
+		<energy>125</energy>
+		
+		<time cooldown="30"/>
+
+		<description>Warps in additional Interceptors and Scouts until the Carrier's maximum capacity is exceeded.</description>
+	</record>
+
+	<record>
+		<id>car_sc</id>
+
+		<name>Scouts</name>
+		<link>Scouts</link>
+	
+		<ship>car</ship>
+		<type>Passive</type>
+		<hotkey>C</hotkey>
+
+		<cost>225</cost>
+
+		<description>Scouts are escort fighters, excellent at engaging enemy capital ships.</description>
+	</record>
+
+	<record>
+		<id>car_rs</id>
+
+		<name>Release Scouts</name>
+		<link>Scouts</link>
+	
+		<ship>car</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<range>16(+1)</range>
+
+		<description>Releases all Scouts toward target unit or location. Targeting the Carrier recalls all deployed Scouts.</description>
+	</record>
+
+	<record>
+		<id>car_te</id>
+
+		<name>Warp in Tempest</name>
+		<link>Warp in Tempest</link>
+	
+		<ship>car</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>175</cost>
+		<energy>125</energy>
+		<range>6</range>
+		
+		<time cooldown="10" cast="0"/>
+
+		<description>Warps in a Tempest that will automatically attack enemies. Tempest is a siege artillery craft that attacks from long range.</description>
+	</record>
+
+	<record>
+		<id>car_wt</id>
+
+		<name>Warp Technology</name>
+		<link>Warp Technology</link>
+	
+		<ship>car</ship>
+		<type>Passive</type>
+		<hotkey>T</hotkey>
+
+		<cost>175</cost>
+
+		<description>Removes the cooldown from Warp.</description>
+	</record>
+
+	<!-- Colossus -->
+
+	<record>
+		<id>col_gs</id>
+
+		<name>Guardian Shield</name>
+		<link>Guardian Shield</link>
+		
+		<ship>col</ship>
+		<type>Active</type>
+		<hotkey>G</hotkey>
+
+		<cost>175</cost>
+		<energy>75</energy>
+		<range>3</range>
+		
+		<time cooldown="30" effect="15"/>
+
+		<description>Creates a range 3 aura that reduces incoming damage to friendly units by 40%. While active, the Colossus cannot be affected by Guardian Shield used by an another Colossus.  Lasts 15 seconds.</description>
+	</record>
+
+	<record>
+		<id>col_hs</id>
+
+		<name>Hardened Shield</name>
+		<link>Hardened Shield</link>
+		
+		<ship>col</ship>
+		<type>Active</type>
+		<hotkey>D</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		
+		<time cooldown="4"/>
+
+		<description>Reduces the damage of next 20 incoming attacks to a maximum of 50. Can only be used if the Colossus has shields.</description>
+	</record>
+
+	<record>
+		<id>col_is</id>
+
+		<name>Invulnerability Shield</name>
+		<link>Invulnerability Shield</link>
+		
+		<ship>col</ship>
+		<type>Active</type>
+		<hotkey>N</hotkey>
+
+		<cost>400</cost>
+		<energy>150</energy>
+		
+		<time cooldown="180" cast="0" effect="15"/>
+
+		<description>Renders the Colossus invulnerable to all damage for 15 seconds.</description>
+	</record>
+
+	<record>
+		<id>col_qr</id>
+
+		<name>Quantum Reactor</name>
+		<link>Quantum Reactor</link>
+		
+		<ship>col</ship>
+		<type>Passive</type>
+		<hotkey>Q</hotkey>
+
+		<cost>150</cost>
+
+		<description>Allows 25% of the shields regeneration to continue while in combat.</description>
+	</record>
+
+	<record>
+		<id>col_rs</id>
+
+		<name>Recharge Shield</name>
+		<link>Recharge Shield</link>
+		
+		<ship>col</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<cost>150</cost>
+		<energy>100</energy>
+		
+		<time cooldown="20"/>
+
+		<description>Instantly restores 16% of the total shield points.</description>
+	</record>
+
+	<record>
+		<id>col_tl</id>
+
+		<name>Thermal Lance</name>
+		<link>Thermal Lance</link>
+		
+		<ship>col</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		<range>9</range>
+		
+		<time cooldown="5"/>
+
+		<description>Deals up to 125 (+875 vs. massive) damage to all units in the target linear area perpendicular to the direction the Colossus is facing.</description>
+	</record>
+
+	<!-- Dreadnought -->
+
+	<record>
+		<id>dre_bb</id>
+
+		<name>Bombardment</name>
+		<link>Bombardment</link>
+		
+		<ship>des</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		<range>10</range>
+		
+		<time cooldown="10" cast="5" effect="5"/>
+
+		<description>Fires a barrage of explosive shells at an area, inflicting 200 (+2300 vs. massive) damage over 5 seconds.</description>
+	</record>
+
+	<record>
+		<id>dre_co</id>
+
+		<name>Cover</name>
+		<link>Cover</link>
+		
+		<ship>des</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<cost>150</cost>
+
+		<description>Allows Dreadnought to block all missiles in a close radius, causing them to hit Dreadnought.</description>
+	</record>
+
+	<record>
+		<id>dre_ec</id>
+
+		<name>Explosive Charge</name>
+		<link>Explosive Charge</link>
+		
+		<ship>des</ship>
+		<type>Active</type>
+		<hotkey>V</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		<range>2</range>
+		
+		<time cooldown="8" effect="5"/>
+
+		<description>Deploys an indestructible charge that will detonate upon detecting an enemy massive unit, dealing 100 (+1400 vs. massive) damage to all units in a close radius. Times out after 30 seconds.</description>
+	</record>
+
+	<record>
+		<id>dre_es</id>
+
+		<name>Emergency Shield</name>
+		<link>Emergency Shield</link>
+		
+		<ship>des</ship>
+		<type>Passive</type>
+		<hotkey>S</hotkey>
+
+		<cost>100</cost>
+
+		<time cooldown="180"/>
+
+		<description>Damage that would otherwise be fatal will activate Emergency Shield, instantly restoring 40% of the total shield points. This effect has cooldown of 3 minutes.</description>
+	
+	</record>
+
+	<record>
+		<id>dre_pf</id>
+
+		<name>Protective Field</name>
+		<link>Protective Field</link>
+	
+		<ship>des</ship>
+		<type>Passive</type>
+		<hotkey>R</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		
+		<time cooldown="15" cast="0" effect="5"/>
+
+		<description>Surrounds Dreadnought in a field of energy, increasing armor by 50 and reducing damage dealt by abilities to 25%. Lasts 5 seconds.</description>
+	</record>
+
+	<record>
+		<id>dre_rb</id>
+
+		<name>Repair Bots</name>
+		<link>Repair Bots</link>
+
+		<ship>des</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>125</cost>
+		<energy>50</energy>
+		
+		<time cooldown="20" cast="0" effect="12"/>
+
+		<description>Deploys 5 Repair Bots that will repair up to 1200 hull over 12 seconds. Shield and Protective Field can protect Repair Bots, but any direct hit will destroy them.</description>
+	</record>
+
+	<record>
+		<id>dre_rh</id>
+
+		<name>Reinforced Hull</name>
+		<link>Reinforced Hull</link>
+
+		<ship>des</ship>
+		<type>Passive</type>
+		<hotkey>R</hotkey>
+
+		<cost>125</cost>
+
+		<description>Reduces all damage inflicted to the hull by 25%. Additionally increases the maximum hull amount by 1000.</description>
+	</record>
+
+	<record>
+		<id>dre_sm</id>
+
+		<name>Siege Mode</name>
+		<link>Siege Mode</link>
+
+		<ship>des</ship>
+		<type>Active</type>
+		<hotkey>G</hotkey>
+
+		<cost>400</cost>
+		<energy>150</energy>
+		
+		<time cast="5"/>
+
+		<description>Deploys into Siege Mode. In this mode Dreadnought has very long range and inflicts area damage. Dreadnought in this mode cannot attack targets at close range, moves very slowly and has reduced armor.</description>
+	</record>
+
+	<record>
+		<id>dre_ra</id>
+
+		<name>Ram</name>
+		<link>Ram</link>
+		<hotkey>N</hotkey>
+
+		<ship>des</ship>
+		<type>Active</type>
+
+		<range>10</range>
+		
+		<description>Attempts to ram a target massive unit. If successful, destroys the Dreadnought, dealing 4,000 damage and additional 4,000 damage over 10 seconds to the target unit. Dreadnought moves faster by 0.3 while chasing the target unit. Once activated this ability cannot be canceled.</description>
+	</record>
+
+
+	<!-- Frigate -->
+
+	<record>
+		<id>fri_af</id>
+		<name>Afterburners</name>
+		<link>Afterburners</link>
+		<hotkey>B</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		
+		<time cooldown="25" cast="0" effect="10"/>
+
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<range>10</range>
+		
+		<description>Increases movement speed by 0.2 and boosts acceleration of the Frigate for 10 seconds.</description>
+	</record>
+
+	<record>
+		<id>fri_cs</id>
+		<name>Cloaking Systems</name>
+		<link>Cloaking Systems</link>
+		<hotkey>S</hotkey>
+
+		<cost>125</cost>
+		<ship>fri</ship>
+		<type>Passive</type>
+				
+		<description>Enables Wraiths to automatically cloak themselves, preventing enemy units from seeing or attacking them. Cloak is interrupted for 2 seconds when a Wraith attacks.</description>
+	</record>
+
+	<record>
+		<id>fri_ft</id>
+		<name>Fusion Torpedo</name>
+		<link>Fusion Torpedo</link>
+		<hotkey>F</hotkey>
+
+		<cost>400</cost>
+		<energy>200</energy>
+		
+		<time cooldown="180" cast="4" effect="10"/>
+
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<range>10</range>
+		
+		<description>Fires a torpedo with a thermonuclear warhead that moves in a target direction at a great speed. The torpedo will detonate if it passes close to an enemy massive unit, dealing up to 6000 area damage. The damage of Fusion Torpedo cannot be blocked or reduced by defensive abilities.</description>
+	</record>
+
+	<record>
+		<id>fri_ic</id>
+		<name>Ion Cannon</name>
+		<link>Ion Cannon</link>
+		<hotkey>C</hotkey>
+
+		<cost>200</cost>
+		<energy>125</energy>
+		
+		<time cooldown="15" cast="3"/>
+
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<range>11</range>
+		
+		<description>Blasts a target with a devastating ion cannon, causing 1600 (+900 vs. shield) damage.</description>
+	</record>
+
+	<record>
+		<id>fri_js</id>
+		<name>Jamming Systems</name>
+		<link>Jamming Systems</link>
+		<hotkey>J</hotkey>
+
+		<cost>175</cost>
+		
+		<time cast="20"/>
+
+		<ship>fri</ship>
+		<type>Passive</type>
+				
+		<description>Hides the Frigate from the enemy's Radars and Scanner Sweeps. Only active when the Frigate is out of combat for at least 20 seconds. Using abilities will disrupt this effect.</description>
+	</record>
+
+	<record>
+		<id>fri_mm</id>
+		<name>Magnetic Mine</name>
+		<link>Magnetic Mine</link>
+		<hotkey>G</hotkey>
+
+		<cost>150</cost>
+		<energy>40</energy>
+		
+		<time effect="600"/>
+
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<range>3</range>
+		
+		<description>Deploys a cloaked mine that when detonated deals 50 (+300 vs. massive) area damage. Magnetic Mines need 6 seconds to arm and cloak themselves. Last 10 minutes.</description>
+	</record>
+
+	<record>
+		<id>fri_qr</id>
+		<name>Quick Reload</name>
+		<link>Quick Reload</link>
+		<hotkey>E</hotkey>
+
+		<cost>125</cost>
+		<energy>40</energy>
+		
+		<time cooldown="12"/>
+
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<description>Immediately finishes the cooldown on Backlash Rockets.</description>
+	</record>
+
+	<record>
+		<id>fri_rw</id>
+		<name>Ripwave Warheads</name>
+		<link>Ripwave Warheads</link>
+		<hotkey>V</hotkey>
+
+		<cost>150</cost>
+		<energy>15</energy>
+		
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<description>Causes Backlash Rockets to deal area damage.Drains 15 energy for each volley.</description>
+	</record>
+
+	<record>
+		<id>fri_kw</id>
+		<name>Kamikaze Warp Jump</name>
+		<link>Kamikaze Warp Jump</link>
+		<hotkey>K</hotkey>
+		
+		<time cast="4"/>
+
+		<ship>fri</ship>
+		<type>Active</type>
+		
+		<range>500</range>
+		
+		<description>The Frigate launches itself in a target direction and keeps moving at a great speed until it hits an enemy massive unit or an obstacle. Upon collision the Frigate will explode, dealing up to 6000 area damage and destroying itself.</description>
+	</record>
+
+	<!-- Guardian -->
+
+	<record>
+		<id>gua_ao</id>
+
+		<name>Adrenal Overload</name>
+		<link>Adrenal Overload</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>125</cost>
+		<health>1500</health>
+		
+		<time cooldown="20" cast="0" effect="10"/>
+
+		<description>Restores 200 energy over 10 seconds.</description>
+	</record>
+
+	<record>
+		<id>gua_ca</id>
+
+		<name>Corrosive Acid</name>
+		<link>Corrosive Acid</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<cost>175</cost>
+		<energy>35</energy>
+		<range>10</range>
+		
+		<time cooldown="8" cast="0" effect="16"/>
+
+		<description>Lowers the armor of a target unit by 4. Stacks up to 5 times. Lasts 16 seconds.</description>
+	</record>
+
+	<record>
+		<id>gua_ds</id>
+
+		<name>Dark Swarm</name>
+		<link>Dark Swarm</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>D</hotkey>
+
+		<cost>150</cost>
+		<energy>100</energy>
+		<range>7</range>
+		
+		<time cooldown="30" cast="0" effect="20"/>
+
+		<description>Casts a cloud over an area which protects units under the cloud from ranged attacks. All covered units cannot be targeted by most ranged attacks beyond range 4. Does not affect special abilities. Lasts 20 seconds.</description>
+	</record>
+
+	<record>
+		<id>gua_in</id>
+
+		<name>Infestation</name>
+		<link>Infestation</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>N</hotkey>
+
+		<cost>400</cost>
+		<energy>200</energy>
+		<range>8</range>
+		
+		<time cooldown="60" cast="5" effect="600"/>
+
+		<description>Infests a damaged Terran capital ship. The target must have less than 3500 hull and less than 500 shields. Cannot be used on units protected by Defensive Shield, Protective Field or Defensive Matrix. Infestation takes 5 seconds to complete and during it the target has speed reduced by 0.2. If an infestation is successful, the target is restored to full health and becomes controlled by the Guardian. Infested ships explode after 10 minutes.</description>
+	</record>
+
+	<record>
+		<id>gua_pm</id>
+
+		<name>Posthumous Mitosis</name>
+		<link>Posthumous Mitosis</link>
+		
+		<ship>gua</ship>
+		<type>Passive</type>
+		<hotkey>P</hotkey>
+
+		<cost>150</cost>
+
+		<description>The Guardian will spawn 15 Scourges on death and Brood Lords will spawn 2 Broodlings when killed.</description>
+	</record>
+
+	<record>
+		<id>gua_co</id>
+
+		<name>Spawn Corruptor</name>
+		<link>Spawn Corruptor</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>T</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		<range>5</range>
+		
+		<time effect="60"/>
+
+		<description>Spawns a Corruptor. Corruptors are durable flyers effective against enemy capital ships. A Corruptor will last 60 seconds.</description>
+	</record>
+
+	<record>
+		<id>gua_sb</id>
+
+		<name>Spawn Broodlord</name>
+		<link>Spawn Broodlord</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>150</cost>
+		<energy>250</energy>
+		<range>5</range>
+		
+		<time effect="45"/>
+
+		<description>Spawns a Brood Lord. Brood Lords are flying heavy-assault unit that shoot Broodlings at their targets. A Brood Lord will last 45 seconds.</description>
+	</record>
+
+	<record>
+		<id>gua_sc</id>
+
+		<name>Scourge</name>
+		<link>Scourge</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>G</hotkey>
+
+		<cost>200</cost>
+		<energy>125</energy>
+		<range>15</range>
+		
+		<time cooldown="10" cast="3"/>
+
+		<description>Releases a swarm of 10 Scourges flying towards the target. Each Scourge has 120 life and deals up to 250 area damage on hit or when destroyed.</description>
+	</record>
+
+	<record>
+		<id>gua_rb</id>
+
+		<name>Release Broodlings</name>
+		<link>Weapons</link>
+		
+		<ship>gua</ship>
+		<type>Active</type>
+		<hotkey>R</hotkey>
+
+		<range>13(+1)</range>
+		
+		<time cooldown="3"/>
+
+		<description>Shoots Broodlings at a target. Broodlings deal damage upon impact, and then act as separate timed-lifespan units that can attack enemy units. </description>
+	</record>
+
+
+	<!-- Leviathan -->
+
+	<record>
+		<id>lev_as</id>
+
+		<name>Acid Spray</name>
+		<link>Acid Spray</link>
+
+		<ship>lev</ship>
+		<type>Active</type>
+		<hotkey>D</hotkey>
+
+		<cost>150</cost>
+		<energy>100</energy>
+		<range>10</range>
+		
+		<time cooldown="5" cast="0" effect="8"/>
+
+		<description>Deals 100 (+500 vs. massive) damage over 8 seconds to units in target area. Affected units have armor reduced by 5.</description>
+	</record>
+
+	<record>
+		<id>lev_ap</id>
+
+		<name>Adaptive Plating</name>
+		<link>Adaptive Plating</link>
+
+		<ship>lev</ship>
+		<type>Passive</type>
+		<hotkey>A</hotkey>
+
+		<cost>150</cost>
+
+		<description>Leviathan gains +50% armor when life is under 40%.</description>
+	</record>
+
+	<record>
+		<id>lev_bd</id>
+
+		<name>Bio-Plasmid Discharge</name>
+		<link>Bio-Plasmid Discharge</link>
+		
+		<ship>lev</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>175</cost>
+		<energy>125</energy>
+		<range>11</range>
+		
+		<time cooldown="15" cast="3" effect="20"/>
+
+		<description>Deals 800 damage and additional 1200 damage over 6 seconds to a target unit.</description>
+	</record>
+
+	<record>
+		<id>lev_co</id>
+
+		<name>Corruption</name>
+		<link>Corruption</link>
+
+		<ship>lev</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<cost>175</cost>
+		<energy>50</energy>
+		<range>8</range>
+		
+		<time cooldown="15" cast="0" effect="15"/>
+
+		<description>Covers the target enemy massive unit in Zerg slime, increasing the damage it takes by 25%. Lasts 15 seconds.</description>
+	</record>
+
+	<record>
+		<id>lev_fz</id>
+
+		<name>Frenzy</name>
+		<link>Frenzy</link>
+
+		<ship>lev</ship>
+		<type>Active</type>
+		<hotkey>F</hotkey>
+
+		<cost>400</cost>
+		<energy>150</energy>
+		
+		<time cooldown="60" cast="0" effect="15"/>
+
+		<description>Increases the damage dealt by Leviathan by 100% and the movement speed by 0.2. Lasts 15 seconds.</description>
+	</record>
+
+	<record>
+		<id>lev_in</id>
+
+		<name>Interception</name>
+		<link>Interception</link>
+
+		<ship>lev</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		<range>9</range>
+		
+		<time cooldown="30" cast="0" effect="4"/>
+
+		<description>Attempts to intercept a target enemy massive unit. While active, the movement speed is increased by 1.5. Lasts up to 4 seconds.</description>
+	</record>
+
+	<record>
+		<id>lev_me</id>
+
+		<name>Metamorphosis</name>
+		<link>Metamorphosis</link>
+
+		<ship>lev</ship>
+		<type>Passive</type>
+		<hotkey>M</hotkey>
+
+		<cost>150</cost>
+
+		<description>Allows Leviathan to evolve on the battlefield when it is not in combat. Leviathan still can learn new abilities only at base.</description>
+	</record>
+
+	<record>
+		<id>lev_rr</id>
+
+		<name>Rapid Regeneration</name>
+		<link>Rapid Regeneration</link>
+
+		<ship>lev</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		
+		<time cooldown="20" cast="0" effect="20"/>
+
+		<description>Regenerates 1800 life over 5 seconds.</description>
+	</record>
+
+	<record>
+		<id>lev_oi</id>
+
+		<name>Obverse Incubation</name>
+		<link>Obverse Incubation</link>
+
+		<ship>lev</ship>
+		<type>Passive</type>
+		<hotkey>O</hotkey>
+
+		<cost>100</cost>
+
+		<description>Spawn rate of mutalisk is drastically increased.</description>
+
+		<patch from="2.194" to="2.200"/>
+	</record>
+
+	<!-- Overlord -->
+
+	<record>
+		<id>ove_pb</id>
+
+		<name>Psi Blast</name>
+		<link>Psi Blast</link>
+
+		<ship>ove</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		<range>10(+1)</range>
+		
+		<time cooldown="5" cast=".5"/>
+
+		<description>Deals 750 (+250 vs. biological) damage to target unit from long range.</description>
+	</record>
+
+	<record>
+		<id>ove_pl</id>
+
+		<name>Plague</name>
+		<link>Plague</link>
+
+		<ship>ove</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>200</cost>
+		<energy>100</energy>
+		<range>9(+1)</range>
+		
+		<time cooldown="30" cast="1" effect="25"/>
+
+		<description>Sprays all units in a target area with spores that inflicts 8 (+48 vs. massive) damage per second for a maximum of 200 (+1200 vs. massive) damage. Plague deals 50% more damage to biological units. Plague will not destroy affected units leaving at least 1 hit point. Plague does not drain shields but will affect the hit points underneath regardless of shield strength.</description>
+	</record>
+
+	<record>
+		<id>ove_ps</id>
+
+		<name>Psionic Shockwave</name>
+		<link>Psionic Shockwave</link>
+
+		<ship>ove</ship>
+		<type>Active</type>
+		<hotkey>V</hotkey>
+
+		<cost>400</cost>
+		<energy>150</energy>
+		<range>9</range>
+		
+		<time cooldown="180" cast="3" effect="1.5"/>
+
+		<description>Releases a burst of psionic energy radiating outward from the Overlord, dealing 1000 damage to all units in a close radius and pushing them away from the Overlord.</description>
+	</record>
+
+	<record>
+		<id>ove_ss</id>
+
+		<name>Spawn Spotter</name>
+		<link>Spawn Spotter</link>
+
+		<ship>ove</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		
+		<time cooldown="60"/>
+
+		<description>Spawns a Spotter. Spotter is a fast unit that provides vision and detection. Lasts 30 seconds.</description>
+	</record>
+
+	<record>
+		<id>ove_co</id>
+
+		<name>Contaminate</name>
+		<link>Contaminate</link>
+
+		<ship>ove</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<cost>175</cost>
+		<energy>100</energy>
+		<range>9(+1)</range>
+		
+		<time cooldown="30" cast="0" effect="20"/>
+
+		<description>Slows down all enemy units in the targeted area, reducing their attack speed by 50%. Affected units will also take small damage over time. Lasts 20 seconds.</description>
+	</record>
+
+	<record>
+		<id>ove_se</id>
+
+		<name>Siphon Energy</name>
+		<link>Siphon Energy</link>
+
+		<ship>ove</ship>
+		<type>Active</type>
+		<hotkey>Y</hotkey>
+
+		<cost>200</cost>
+		<energy>125</energy>
+		<range>7(+1)</range>
+		
+		<time cooldown="10" cast="0" effect="10"/>
+
+		<description>Drains up to 300 energy over 10 seconds from target unit. The Overlord gains 25% of the drained energy.</description>
+	</record>
+
+	<record>
+		<id>ove_sc</id>
+
+		<name>Swarm Command</name>
+		<link>Swarm Command</link>
+
+		<ship>ove</ship>
+		<type>Passive</type>
+		<hotkey>S</hotkey>
+
+		<cost>200</cost>
+
+		<description>Causes waves of Mutalisks, Corruptors and Brood Lords to spawn at regular intervals and aid Overlord in combat. Spawned units automatically engage the enemy and become stronger as the battle goes on or when an enemy Battle Station or Warp Prism is destroyed. The effect can be stacked up to 2 times and lasts until the Overlord is killed.</description>
+	</record>
+
+	<record>
+		<id>ove_an</id>
+
+		<name>Antennae</name>
+		<link>Antennae</link>
+
+		<ship>ove</ship>
+		<type>Passive</type>
+		<hotkey>A</hotkey>
+
+		<cost>125</cost>
+
+		<description>Increases the sight radius of Overlord by 10.</description>
+	</record>
+
+	<record>
+		<id>ove_pc</id>
+
+		<name>Pneumatized Carapace</name>
+		<link>Pneumatized Carapace</link>
+
+		<ship>ove</ship>
+		<type>Passive</type>
+		<hotkey>P</hotkey>
+
+		<cost>125</cost>
+
+		<description>Increases the movement speed of Mutalisks by 0.5 and allows Overlord to release Mutalisks faster.</description>
+	</record>
+
+	<!-- Raven -->
+
+	<record>
+		<id>rav_sm</id>
+
+		<name>Seeker Missile</name>
+		<link>Seeker Missile</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>N</hotkey>
+
+		<cost>200</cost>
+		<energy>125</energy>
+		<range>15</range>
+		
+		<time cooldown="15" cast="2" effect="15"/>
+
+		<description>Missile that chases its target. Has enough fuel for 15 seconds. Deals up to 2500 area damage.</description>
+	</record>
+
+	<record>
+		<id>rav_ir</id>
+
+		<name>Irradiate</name>
+		<link>Irradiate</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>D</hotkey>
+
+		<cost>175</cost>
+		<energy>125</energy>
+		<range>10</range>
+		
+		<time cooldown="30" cast=".2" effect="15"/>
+
+		<description>Irradiates a single target, causing up to 800 (+600 vs. massive) damage to target and any nearby units over 20 seconds. Irradiate does not damage mechanical units, but nearby biological units will take damage from an Irradiated mechanical unit.</description>
+	</record>
+
+	<record>
+		<id>rav_rg</id>
+
+		<name>Rail Gun</name>
+		<link>Rail Gun</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>G</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		
+		<time cooldown="3"/>
+
+		<description>Deals 350 damage to a target. </description>
+	</record>
+
+	<record>
+		<id>rav_dm</id>
+
+		<name>Defensive Matrix</name>
+		<link>Defensive Matrix</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>F</hotkey>
+
+		<cost>175</cost>
+		<energy>50</energy>
+		<range>8</range>
+		
+		<time cooldown="20" cast="0" effect="5"/>
+
+		<description>Surrounds the target unit with a shield that will reduce most hits to the minimum damage. The shield is not perfect and some hits will leak, dealing full damage. Lasts 5 seconds.</description>
+	</record>
+
+	<record>
+		<id>rav_bo</id>
+
+		<name>Blackout</name>
+		<link>Blackout</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>400</cost>
+		<energy>150</energy>
+		<range>10</range>
+		
+		<time cooldown="180" cast="0" effect="20"/>
+
+		<description>Creates an electromagnetic pulse that disables all mechanical units in the target area. Affected units may not attack or use abilities and have their vision and passive abilities disabled. Lasts 20 seconds.</description>
+	</record>
+
+	<record>
+		<id>rav_pd</id>
+
+		<name>Point Defense Drone</name>
+		<link>Point Defense Drone</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>F</hotkey>
+
+		<cost>200</cost>
+		<energy>125</energy>
+		<range>5</range>
+		
+		<time effect="45"/>
+
+		<description>Deploys a drone that uses a laser to shoot down enemy missiles. The drone cannot target special attacks. Times out after 45 seconds.</description>
+	</record>
+
+	<record>
+		<id>rav_es</id>
+
+		<name>EMP Shockwave</name>
+		<link>EMP Shockwave</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>225</cost>
+		<energy>125</energy>
+		<range>10.5</range>
+		
+		<time cooldown="10" cast="0" effect="5"/>
+
+		<description>Creates an electromagnetic pulse that does 1400 damage to shields and drains 200 energy of all units in the targeted area. Cloaked units hit by EMP Shockwave are revealed for a short time.</description>
+	</record>
+
+	<record>
+		<id>rav_cr</id>
+
+		<name>Corvid Reactor</name>
+		<link>Corvid Reactor</link>
+
+		<ship>rav</ship>
+		<type>Passive</type>
+		<hotkey>C</hotkey>
+
+		<cost>125</cost>
+
+		<description>Reduces the shield regeneration delay to 0.5 second.</description>
+	</record>
+
+	<record>
+		<id>rav_ra</id>
+
+		<name>Radar</name>
+		<link>Radar</link>
+
+		<ship>rav</ship>
+		<type>Passive</type>
+		<hotkey>R</hotkey>
+
+		<cost>150</cost>
+
+		<description>Exposes enemy capital ships movements within range 30. Does not reveal the area.</description>
+	</record>
+
+	<record>
+		<id>rav_du</id>
+
+		<name>Durable Material</name>
+		<link>Durable Material</link>
+
+		<ship>rav</ship>
+		<type>Passive</type>
+		<hotkey>M</hotkey>
+
+		<cost>100</cost>
+
+		<description>Extends the duration of Point Defense Drones by 45 seconds.</description>
+	</record>
+
+	<record>
+		<id>rav_st</id>
+
+		<name>Shield Transfer</name>
+		<link>Shield Transfer</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>R</hotkey>
+
+		<range>6</range>
+
+		<description>Transfers shields to a friendly massive unit at the rate of 140 shields per second. To maintain transfer the Raven must remain within range.</description>
+	</record>
+
+	<record>
+		<id>rav_ov</id>
+
+		<name>Overload</name>
+		<link>Overload</link>
+
+		<ship>rav</ship>
+		<type>Active</type>
+		<hotkey>V</hotkey>
+
+		<range>11</range>
+		
+		<time cast="2.75" effect="60"/>
+
+		<description>Creates a powerful electromagnetic wave that drains all shield and energy from all units within a large radius. Affected units do not regenerate energy and shields for 60 seconds.</description>
+	</record>
+
+	<!-- Void Ray -->
+
+	<record>
+		<id>voi_ch</id>
+
+		<name>Charge</name>
+		<link>Charge</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>R</hotkey>
+
+		<cost>125</cost>
+		<energy>75</energy>
+		
+		<time cooldown="15" cast="0" effect="8"/>
+
+		<description>Increases the damage dealt by the Void Ray by 50%. Lasts 8 seconds. Stacks up to 2 times.</description>
+	</record>
+
+	<record>
+		<id>voi_en</id>
+
+		<name>Energy Nova</name>
+		<link>Energy Nova</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>E</hotkey>
+
+		<cost>125</cost>
+		<energy>100</energy>
+		<range>1</range>
+		
+		<time cooldown="10"/>
+
+		<description>Deals up to 125 damage to all units in a greater radius.</description>
+	</record>
+
+	<record>
+		<id>voi_bl</id>
+		
+		<name>Blink</name>
+		<link>Blink</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>B</hotkey>
+
+		<cost>150</cost>
+		<energy>50</energy>
+		<range>5</range>
+		
+		<time cooldown="20"/>
+
+		<description>Teleports the Void Ray to a nearby target location.</description>
+	</record>
+
+	<record>
+		<id>voi_pu</id>
+
+		<name>Purify</name>
+		<link>Purify</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>Y</hotkey>
+
+		<cost>400</cost>
+		<energy>125</energy>
+		
+		<time cooldown="60" cast="0" effect="15"/>
+
+		<description>Causes the Prismatic Beam to additionally burn energy. Burns 20 energy + 20 energy per each charge every second. Lasts 15 seconds.</description>
+	</record>
+
+	<record>
+		<id>voi_cl</id>
+		
+		<name>Cloak</name>
+		<link>Cloak</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>C</hotkey>
+
+		<cost>175</cost>
+		<energy>25</energy>
+
+		<description>Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects. Drains 12 energy per second.</description>
+	</record>
+
+	<record>
+		<id>voi_cr</id>
+
+		<name>Chrono Rift</name>
+		<link>Chrono Rift</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>T</hotkey>
+
+		<cost></cost>
+		<energy>150</energy>
+		<range>7</range>
+		
+		<time cooldown="10" cast="0" effect="16"/>
+
+		<description>Creates a distortion field at the target location. Light units caught inside of this field have their movement speed, attack speed, and cooldowns slowed by 80%. Caught capital ships have their attack speed and cooldowns slowed by 50%. Lasts 16 seconds.</description>
+	</record>
+
+	<record>
+		<id>voi_fv</id>
+
+		<name>Flux Vanes</name>
+		<link>Flux Vanes</link>
+
+		<ship>voi</ship>
+		<type>Passive</type>
+		<hotkey>V</hotkey>
+
+		<cost>100</cost>
+
+		<description>Increases the movement speed of the Void Ray by 25% when it is out of combat for at least 20 seconds.</description>
+	</record>
+
+	<record>
+		<id>voi_ps</id>
+
+		<name>Phase Shift</name>
+		<link>Phase Shift</link>
+
+		<ship>voi</ship>
+		<type>Passive</type>
+		<hotkey>P</hotkey>
+
+		<cost>125</cost>
+
+		<description>Gives a 25% chance to evade incoming attacks. Does not affect abilities.</description>
+	</record>
+
+	<record>
+		<id>voi_hf</id>
+
+		<name>Hold Fire</name>
+		<link>Hold Fire</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>F</hotkey>
+
+		<description>Orders selected units to holster their weapons and avoid engaging enemies, unless given a direct command. Units holding fire will flee if attacked.</description>
+	</record>
+
+	<record>
+		<id>voi_wf</id>
+
+		<name>Weapons Free</name>
+		<link>Weapons Free</link>
+
+		<ship>voi</ship>
+		<type>Active</type>
+		<hotkey>G</hotkey>
+
+		<description>Orders selected units to fire at will. They will engage enemy units within range and chase them as normal.</description>
+	</record>
+
+
+	<!-- Observer -->
+
+	<record>
+		<id>obs_de</id>
+
+		<name>Detection</name>
+		<link>Detection</link>
+
+		<ship>obs</ship>
+		<type>Active</type>
+		<hotkey>D</hotkey>
+
+		<energy>25</energy>
+		
+		<description>Detects cloaked units and phantoms within radius of 6. Drains 5 energy per second.</description>
+	</record>
+
+	<record>
+		<id>obs_cl</id>
+
+		<name>Permanently Cloaked</name>
+		<link>Permanently Cloaked</link>
+
+		<ship>obs</ship>
+		<type>Passive</type>
+
+		<description>The Observer is permanently cloaked.</description>
+	</record>
+</pre>
