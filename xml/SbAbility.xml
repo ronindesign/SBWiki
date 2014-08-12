@@ -341,10 +341,11 @@
 
 		<cost>125</cost>
 		<energy>100</energy>
+		<range>7</range>
 		
 		<time cooldown="3" cast="4"/>
 
-		<description>Missile Pods do 100 damage (+500 vs. armored) to all units in target area.</description>
+		<description>Missile Pods do 125 damage (+475 vs. armored) to all units in target area.</description>
 	</record>
 
 	<record>
@@ -359,6 +360,7 @@
 
 		<cost>400</cost>
 		<energy>200</energy>
+		<range>15</range>
 		
 		<time cooldown="180" cast="2" effect="15"/>
 
@@ -408,8 +410,9 @@
 
 		<cost>175</cost>
 		<energy>125</energy>
+		<range>10</range>
 		
-		<time cooldown="10" cast="3"/>
+		<time cooldown="30" cast="3"/>
 
 		<description>Blasts a target with a devastating plasma cannon, causing 2000 damage.</description>
 	</record>
@@ -461,7 +464,7 @@
 		<hotkey>G</hotkey>
 
 		<cost>125</cost>
-		<energy>50</energy>
+		<energy>75</energy>
 		<range>15</range>
 		
 		<time cooldown="10" cast="0" effect="20"/>
@@ -501,7 +504,7 @@
 		<cost>150</cost>
 		<energy>125</energy>
 		
-		<time cooldown="30"/>
+		<time cooldown="40"/>
 
 		<description>Warps in additional Interceptors and Scouts until the Carrier's maximum capacity is exceeded.</description>
 	</record>
@@ -643,6 +646,21 @@
 	</record>
 
 	<record>
+		<id>col_fd</id>
+
+		<name>Field Disruptor</name>
+		<link>Field Disruptor</link>
+		
+		<ship>col</ship>
+		<type>Passive</type>
+		<hotkey>F</hotkey>
+
+		<cost>150</cost>
+
+		<description>Disrupts enemy Force Fields and Chrono Rifts in a close radius around the Colossus.</description>
+	</record>
+
+	<record>
 		<id>col_rs</id>
 
 		<name>Recharge Shield</name>
@@ -731,7 +749,7 @@
 		
 		<time cooldown="8" effect="5"/>
 
-		<description>Deploys an indestructible charge that will detonate upon detecting an enemy massive unit, dealing 100 (+1400 vs. massive) damage to all units in a close radius. Times out after 30 seconds.</description>
+		<description>Deploys an indestructible charge that will detonate upon detecting an enemy massive unit, dealing 200 (+1300 vs. massive) damage to all units in a close radius. Times out after 30 seconds.</description>
 	</record>
 
 	<record>
@@ -868,7 +886,7 @@
 		<ship>fri</ship>
 		<type>Passive</type>
 				
-		<description>Enables Wraiths to automatically cloak themselves, preventing enemy units from seeing or attacking them. Cloak is interrupted for 2 seconds when a Wraith attacks.</description>
+		<description>Enables Wraiths to automatically cloak themselves, preventing enemy units from seeing or attacking them. Cloak is interrupted for 1.5 seconds when a Wraith attacks.</description>
 	</record>
 
 	<record>
@@ -941,7 +959,7 @@
 		
 		<range>3</range>
 		
-		<description>Deploys a cloaked mine that when detonated deals 50 (+300 vs. massive) area damage. Magnetic Mines need 6 seconds to arm and cloak themselves. Last 10 minutes.</description>
+		<description>Deploys a cloaked mine that when detonated deals 100 (+300 vs. massive) area damage. Magnetic Mines need 6 seconds to arm and cloak themselves. Last 10 minutes.</description>
 	</record>
 
 	<record>
@@ -1172,7 +1190,7 @@
 		<hotkey>D</hotkey>
 
 		<cost>150</cost>
-		<energy>100</energy>
+		<energy>75</energy>
 		<range>10</range>
 		
 		<time cooldown="5" cast="0" effect="8"/>
@@ -1192,7 +1210,22 @@
 
 		<cost>150</cost>
 
-		<description>Leviathan gains +50% armor when life is under 40%.</description>
+		<description>Gradually increases the armor when life is decreased, up to the maximum of 100% of the base armor.</description>
+	</record>
+
+	<record>
+		<id>lev_oc</id>
+
+		<name>Organic Carapace</name>
+		<link>Organic Carapace</link>
+
+		<ship>lev</ship>
+		<type>Passive</type>
+		<hotkey>O</hotkey>
+
+		<cost>150</cost>
+
+		<description>Decreases the life regeneration delay to 0.5.</description>
 	</record>
 
 	<record>
@@ -1206,7 +1239,7 @@
 		<hotkey>B</hotkey>
 
 		<cost>175</cost>
-		<energy>125</energy>
+		<energy>100</energy>
 		<range>11</range>
 		
 		<time cooldown="15" cast="3" effect="20"/>
@@ -1513,7 +1546,7 @@
 
 		<cost>175</cost>
 		<energy>125</energy>
-		<range>10</range>
+		<range>11</range>
 		
 		<time cooldown="30" cast=".2" effect="15"/>
 

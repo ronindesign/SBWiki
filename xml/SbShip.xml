@@ -105,7 +105,7 @@
 		<fighter>Escort</fighter>
 
 		<active>col_gs,col_hs,col_is,col_rs,col_tl,wa,la,rt</active>
-		<passive>col_qr</passive>
+		<passive>col_qr,col_fd</passive>
 	</record>
 
 	<!-- Dreadnought -->
@@ -203,7 +203,7 @@
 		<race>Zerg</race>
 		<class>Armored,Biological,Massive</class>
 
-		<hull armor="5" regen="50/s">14000</hull>
+		<hull armor="6" regen="50/s">14000</hull>
 
 		<energy regen=".6/s">150</energy>
 		<speed>1.3</speed>
@@ -215,7 +215,7 @@
 		<fighter>Locust</fighter>
 		
 		<active>lev_as,lev_bd,lev_co,lev_fz,lev_rr,lev_in,wr,la,rt</active>
-		<passive>lev_ap,lev_me</passive>
+		<passive>lev_ap,lev_me,lev_oc</passive>
 	</record>
 
 	<!-- Overlord -->
@@ -576,7 +576,7 @@
 
 		<hull armor="0" regen="0/s">50</hull>
 
-		<energy regen="1/s">200</energy>
+		<energy regen="1/s">100</energy>
 		<sight>7</sight>
 		
 		<primary speed="0" range="8">Point Defense Laser</primary>
@@ -598,7 +598,7 @@
 
 		<sight>3</sight>
 		
-		<primary damage="50(+300 vs. massive)" range="1.75">Detonate</primary>
+		<primary damage="100(+300 vs. massive)" range="1.75">Detonate</primary>
 	</record>
 
 	<!-- Tower -->
@@ -639,6 +639,7 @@
 		<sight>14</sight>
 		
 		<primary damage="100" speed="0.1" range="20">Purifier Beam/Laser Beam</primary>
+		<secondary damage="250" speed=".25" range="20">Repulsor Cannon/Devastator Missiles</secondary>
 	</record>
 
 	<!-- Scout -->
